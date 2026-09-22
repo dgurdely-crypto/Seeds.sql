@@ -1,0 +1,2 @@
+sudo -u postgres psql -d harvestlink -f schema.sql
+sudo -u postgres psql -d harvestlink -f seeds.sql
